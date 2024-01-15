@@ -1,7 +1,7 @@
 INSERT INTO Venu (Name, Location, Capacity) VALUES
-('Levis', 'Chicago', 50000),
-('Metlife', 'LA', 70000),
-('Mercedes Benz Stadium', 'USA', 18000),
+('Chepak', 'Chennai', 50000),
+('Chinnswamy', 'Banglore', 70000),
+('Oval', 'England', 18000),
 ('Venu 4', 'Location 4', 18500),
 ('Venu 5', 'Location 5', 16200),
 ('Venu 6', 'Location 6', 29000),
@@ -23,16 +23,16 @@ INSERT INTO Event (Name, Date, StartTime, EndTime, VenuID) VALUES
 
 
 INSERT INTO Customers (FirstName, LastName, Email, PhoneNumber) VALUES
-('John', 'Doe', 'john.doe@email.com', '123-456-7890'),
-('Jane', 'Smith', 'jane.smith@email.com', '234-567-8901'),
-('Steven', 'Smith', 'steven.smith@email.com', '234-507-8909'),
-('Virat', 'Kohli', 'virat.kohli@email.com', '294-557-8901'),
-('Mahendra', 'Dhoni', 'mahendra.dhoni@email.com', '777-577-7777'),
-('Ravindhra', 'Jadeja', 'ravindhra.jadeja@email.com', '238-569-8901'),
-('Sanju', 'Samson', 'sanju.samson@email.com', '234-507-8701'),
-('David', 'Warner', 'david.warner@email.com', '234-557-9903'),
-('Mithcel', 'Starc', 'mitchel.starc@email.com', '294-986-8941'),
-('Mitchel', 'Johnson', 'mitchel.johnson@email.com', '234-567-000');
+('Gowtham', 'Miller', 'gowthammiller.com', '123-456-7890'),
+('Sidharth', 'Maaran', 'sidhathmaaran@email.com', '234-567-8901'),
+('Gokul', 'Smith', 'gokulsmith@email.com', '234-507-8909'),
+('Adhil', 'Ross', 'adhilross@email.com', '294-557-8901'),
+('Praveen', 'Spector', 'praveenspector@email.com', '777-577-7777'),
+('Dj', 'Balu', 'djbalu@email.com', '238-569-8901'),
+('Mohammed', 'Samson', 'mohammedsamson@email.com', '234-507-8701'),
+('Tony', 'Starc', 'tonystarc@email.com', '234-557-9903'),
+('Hari', 'Balaji', 'haribalaji@email.com', '294-986-8941'),
+('Batista', 'Dave', 'batistadave@email.com', '234-567-000');
 INSERT INTO Booking (EventID, CustomerID, BookingDate, NumberOfTickets) VALUES
 (1, 1, '2024-01-09', 2),
 (2, 2, '2024-01-10', 3),
